@@ -1,0 +1,29 @@
+html,body
+{
+    font-family: 'Segoe UI Light', 'Helvetica Neue', 'RobotoLight', 'Segoe UI', 'Segoe WP', sans-serif;
+}
+
+#greeting
+{
+    text-align: center;
+}
+
+#chat-window
+{
+    height: 300px;
+    border-left: solid 1px lightgray;
+    border-right: solid 1px lightgray;
+    overflow-x: hidden;
+}
+.msg-single
+{
+    float: left;
+    text-align: left;
+    width: 80%;
+    text-wrap:normal;
+    word-wrap: break-word;
+    background: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 0;
+}

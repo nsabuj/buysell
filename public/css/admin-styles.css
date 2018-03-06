@@ -1,0 +1,40 @@
+.ad_photo
+{
+    width: 100%;
+    height: auto;
+}
+.ad-thumb a{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    color: #880000;
+    padding: 10px 15px;
+    border-radius: 50%;
+    display: none;
+}
+.ad-thumb:hover a{
+    display: block;
+}
+
+.errors{
+    list-style: none;
+    color: red;
+}
+.current-profile-pic
+{
+    width: 200px;
+    height: 160px;
+}
+.current-profile-pic img
+{
+    width: 100%;
+    height: auto;
+    max-height: 140px;
+}
+
+.user-panel>.info 
+{
+position: relative !important;
+}
